@@ -4,8 +4,8 @@
 }
 
 .colour-border{
-  border: 10px double tomato;
-  padding: 10px;
+  border: 20px double tomato;
+  padding: 12px;
 }
 
 .header{
@@ -16,4 +16,9 @@
 body{
   padding: 10px;
   background-color: chartreuse;
+}
+
+input[type=text] {
+  background-color: darkred;
+  color: white;
 }
