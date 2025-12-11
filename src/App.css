@@ -4,11 +4,12 @@
 }
 
 .colour-border{
-  border: 3px solid tomato;
+  border: 10px double tomato;
   padding: 10px;
 }
 
 .header{
+  border: 5px solid palevioletred
   padding: 10px;
 }
 
