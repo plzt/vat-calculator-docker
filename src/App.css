@@ -4,18 +4,19 @@
 }
 
 .colour-border{
-  border: 20px double tomato;
+  border: 4px dashed plum;
   padding: 12px;
 }
 
 .header{
-  border: 5px solid palevioletred;
+  border: 50px solid firebrick;
   padding: 10px;
 }
 
 body{
   padding: 10px;
-  background-color: chartreuse;
+  background-color: cadetblue;
+  color: navy
 }
 
 input[type=text] {
@@ -166,7 +167,7 @@ html {
   height: 2%;
   background: white;
   border-radius: 50%;
-  abox-shadow: inset 0.25vmin -0.25vmin 0.25vmin #0002;
+  box-shadow: inset 0.25vmin -0.25vmin 0.25vmin #0002;
   animation: snowfall 4s 1 forwards;
 }
 
@@ -205,7 +206,7 @@ html {
 .snowflake:nth-child(30) { left: 17%; animation-delay: 3.4s; }
 
 .canvas:active .snowflake {
-  animation: none;
+  animation: ease-in-out forwards infinite;
 }
 
 .something {
@@ -236,59 +237,5 @@ html {
     radial-gradient(circle at 50% 70%, #fff, #eee 40%, #0000 0)
     ;
   background-repeat: no-repeat;
-}
-
-
-/***/
-
-#youtube {
-  z-index: 2;
-  display: block;
-  width: 100px;
-  height: 70px;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  background: red;
-  border-radius: 50% / 11%;
-  transition: transform 0.5s;
-}
-
-#youtube:hover,
-#youtube:focus {
-  transform: scale(1.1);
-}
-
-#youtube::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 7.5%;
-  left: -6%;
-  width: 112%;
-  height: 85%;
-  background: red;
-  border-radius: 9% / 50%;
-}
-
-#youtube::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 20px;
-  left: 40px;
-  width: 45px;
-  height: 30px;
-  border: 15px solid transparent;
-  box-sizing: border-box;
-  border-left: 30px solid white;
-}
-
-#youtube span {
-  font-size: 0;
-  position: absolute;
-  width: 0;
-  height: 0;
-  overflow: hidden;
 }
 
