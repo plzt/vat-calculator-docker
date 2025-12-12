@@ -1,0 +1,2 @@
+image: plzt1982mea/vat:<+pipeline.sequenceId>
+replicas: 1
