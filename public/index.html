@@ -97,8 +97,10 @@
     <script>
       let hostname = location.hostname;
       document.getElementById("host").innerHTML = hostname;
-      let portname = location.port;
-      document.getElementById("port").innerHTML = portname;
+      let pathname = location.pathname;
+      document.getElementById("port").innerHTML = pathname;
+      let protocol = location.protocol;
+      document.getElementById("port").innerHTML = protocol;
     </script>
   </body>
 </html>
